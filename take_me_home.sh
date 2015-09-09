@@ -1,4 +1,4 @@
 #!/bin/bash
 git pull
-restart service unicorn
-restart service nginx
+service unicorn restart
+service nginx restart
